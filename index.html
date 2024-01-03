@@ -117,6 +117,42 @@
 </table>
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
   <tr>
+    <td width="40%" valign="top" align="center"><a href="https://mobile-aloha.github.io">
+    <video playsinline autoplay loop muted src="images/mobile-aloha-clip.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://mobile-aloha.github.io" id="MOBILE_ALOHA">
+      <heading>Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation</heading></a><br>
+      Zipeng Fu*, Tony Z. Zhao*, Chelsea Finn<br>
+      Preprint 2024<br>
+      </p>
+
+      <div class="paper" id="mobile_aloha">
+      <a href="https://mobile-aloha.github.io">webpage</a> |
+      <a href="https://mobile-aloha.github.io/resources/mobile-aloha.pdf">pdf</a> |
+      <a href="javascript:toggleblock('mobile_aloha_abs')">abstract</a> |
+      <a shape="rect" href="javascript:togglebib('mobile_aloha')" class="togglebib">bibtex</a> |
+      <a href="">arXiv</a> |
+      <a href="https://github.com/MarkFzp/mobile-aloha">code</a> |
+      <a href="https://youtu.be/zMNumQ45pJ8">video</a>
+
+      <p align="justify"> <i id="mobile_aloha_abs">Imitation learning from human demonstrations has shown impressive performance in robotics. However, most results focus on table-top manipulation, lacking the mobility and dexterity necessary for generally useful tasks. In this work, we develop a system for imitating mobile manipulation tasks that are bimanual and require whole-body control. We first present Mobile ALOHA, a low-cost and whole-body teleoperation system for data collection. It augments the ALOHA system with a mobile base, and a whole-body teleoperation interface. Using data collected with Mobile ALOHA, we then perform supervised behavior cloning and find that co-training with existing static ALOHA datasets boosts performance on mobile manipulation tasks. With 50 demonstrations for each task, co-training can increase success rates by up to 90%, allowing Mobile ALOHA to autonomously complete complex mobile manipulation tasks such as sauteing and serving a piece of shrimp, opening a two-door wall cabinet to store heavy cooking pots, calling and entering an elevator, and lightly rinsing a used pan using a kitchen faucet.</i></p>
+
+<pre xml:space="preserve">
+@inproceedings{fu2024mobile,
+  author = {Fu, Zipeng and 
+          Zhao, Tony Z. and Finn, Chelsea},
+  title = {Mobile ALOHA: Learning Bimanual Mobile Manipulation
+    with Low-Cost Whole-Body Teleoperation},
+  booktitle = {arXiv},
+  year = {2024}
+}
+</pre>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
     <td width="40%" valign="top" align="center"><a href="https://robot-parkour.github.io">
     <video playsinline autoplay loop muted src="images/parkour-clip.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
     </a></td>
@@ -133,7 +169,7 @@
       <a href="https://robot-parkour.github.io/resources/Robot_Parkour_Learning.pdf">pdf</a> |
       <a href="javascript:toggleblock('parkour_abs')">abstract</a> |
       <a shape="rect" href="javascript:togglebib('parkour')" class="togglebib">bibtex</a> |
-      <a href="">arXiv</a> |
+      <a href="https://arxiv.org/abs/2309.05665">arXiv</a> |
       <a href="https://github.com/ZiwenZhuang/parkour">code</a> |
       <a href="https://www.youtube.com/watch?v=M7lDCSF0KP0">video</a>
 
@@ -198,8 +234,8 @@
     </a></td>
     <td width="60%" valign="top">
       <p><a href="https://navigation-locomotion.github.io/" id="NAVLOCO">
-      <heading>Coupling Vision and Proprioception for</br>Navigation of Legged Robots</heading></a><br>
-      Zipeng Fu*, Ashish Kumar*, Ananye Agarwal, Haozhi Qi,<br>Jitendra Malik, Deepak Pathak<br>
+      <heading>Coupling Vision and Proprioception for Navigation of Legged Robots</heading></a><br>
+      Zipeng Fu*, Ashish Kumar*, Ananye Agarwal, Haozhi Qi, Jitendra Malik, Deepak Pathak<br>
       CVPR 2022<br>
       <b>Best Paper at Multimodal Learning Workshop</b>
       </p>
@@ -237,7 +273,7 @@
     </a></td>
     <td width="60%" valign="top">
       <p><a href="https://energy-locomotion.github.io/" id="ENERGYLOCO">
-      <heading>Minimizing Energy Consumption Leads to the<br>Emergence of Gaits in Legged Robots</heading></a><br>
+      <heading>Minimizing Energy Consumption Leads to the Emergence of Gaits in Legged Robots</heading></a><br>
       Zipeng Fu, Ashish Kumar, Jitendra Malik, Deepak Pathak<br>
       CoRL 2021
       </p>
@@ -347,8 +383,8 @@
     <td width="40%" valign="top" align="center"><a href="https://arxiv.org/pdf/2001.07752.pdf"><img src="images/AAMAS2020_Pragmatics_img.png" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></a></td>
     <td width="60%" valign="top">
       <p><a href="https://arxiv.org/pdf/2001.07752.pdf" id="PRAGMATICS_MARL">
-      <heading>Emergence of Pragmatics from Referential Game between<br>Theory of Mind Agents</heading></a><br>
-      Luyao Yuan, Zipeng Fu, Jingyue Shen, Lu Xu, Junhong Shen,</br>Song-Chun Zhu<br>
+      <heading>Emergence of Pragmatics from Referential Game between Theory of Mind Agents</heading></a><br>
+      Luyao Yuan, Zipeng Fu, Jingyue Shen, Lu Xu, Junhong Shen, Song-Chun Zhu<br>
       Emergent Communication Workshop<br>
       NeurIPS 2019</b>
       </p>
@@ -534,6 +570,9 @@ hideallbibs();
 </script>
 <script xml:space="preserve" language="JavaScript">
   hideblock('parkour_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+  hideblock('mobile_aloha_abs');
 </script>
 </body>
 
