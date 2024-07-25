@@ -239,6 +239,32 @@
   </tr>
 
   <tr>
+    <td width="40%" valign="top" align="center"><a href="https:/robotics-transformer-x.github.io">
+    <video playsinline autoplay loop muted src="images/rtx-clip.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://robotics-transformer-x.github.io" id="rtx">
+      <heading>Open X-Embodiment: Robotic Learning Datasets and RT-X Models</heading></a><br>
+      Open X-Embodiment Collaboration led by Google DeepMind<br>
+      ICRA 2024<br>
+      <b style="color:rgb(255, 100, 100);">Best Paper Award</b>
+      </p>
+
+      <div class="paper" id="rtx">
+      <a href="https://robotics-transformer-x.github.io">webpage</a> |
+      <a href="https://arxiv.org/pdf/2310.08864">pdf</a> |
+      <a href="javascript:toggleblock('rtx_abs')">abstract</a> |
+      <a href="https://arxiv.org/abs/2310.08864">arXiv</a> |
+      <a href="https://github.com/google-deepmind/open_x_embodiment">code</a> |
+      <a href="https://deepmind.google/discover/blog/scaling-up-learning-across-many-different-robot-types/">blog</a>
+
+      <p align="justify"> <i id="rtx_abs">Large, high-capacity models trained on diverse datasets have shown remarkable successes on efficiently tackling downstream applications. In domains from NLP to Computer Vision, this has led to a consolidation of pretrained models, with general pretrained backbones serving as a starting point for many applications. Can such a consolidation happen in robotics? Conventionally, robotic learning methods train a separate model for every application, every robot, and even every environment. Can we instead train “generalist” X-robot policy that can be adapted efficiently to new robots, tasks, and environments? In this paper, we provide datasets in standardized data formats and models to make it possible to explore this possibility in the context of robotic manipulation, alongside experimental results that provide an example of effective X-robot policies. We assemble a dataset from 22 different robots collected through a collaboration between 21 institutions, demonstrating 527 skills (160266 tasks). We show that a high-capacity model trained on this data, which we call RT-X, exhibits positive transfer and improves the capabilities of multiple robots by leveraging experience from other platforms.</i></p>
+
+      </div>
+    </td>
+  </tr>
+
+  <tr>
     <td width="40%" valign="top" align="center"><a href="https://robot-parkour.github.io">
     <video playsinline autoplay loop muted src="images/parkour-clip.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
     </a></td>
@@ -670,6 +696,9 @@ hideallbibs();
 </script>
 <script xml:space="preserve" language="JavaScript">
   hideblock('umi_on_legs_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+  hideblock('rtx_abs');
 </script>
 
 </body>
