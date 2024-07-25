@@ -154,6 +154,7 @@
       </div>
     </td>
   </tr>
+
   <tr>
     <td width="40%" valign="top" align="center"><a href="https://mobile-aloha.github.io">
     <video playsinline autoplay loop muted src="images/mobile-aloha-clip.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
@@ -186,6 +187,53 @@
   year = {2024}
 }
 </pre>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="40%" valign="top" align="center"><a href="https://arxiv.org/abs/2407.07775">
+    <video playsinline autoplay loop muted src="images/mobility-vla-clip.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://arxiv.org/abs/2407.07775" id="mobility_vla">
+      <heading>Mobility VLA: Multimodal Instruction Navigation with Long-Context VLMs and Topological Graphs</heading></a><br>
+      Hao-Tien Lewis Chiang*, Zhuo Xu*, Zipeng Fu*, Mithun George Jacob, Tingnan Zhang, Tsang-Wei Edward Lee, Wenhao Yu, Connor Schenck, David Rendleman, Dhruv Shah, Fei Xia, Jasmine Hsu, Jonathan Hoech, Pete Florence, Sean Kirmani, Sumeet Singh, Vikas Sindhwani, Carolina Parada*, Chelsea Finn*, Peng Xu*, Sergey Levine*, Jie Tan*<br>
+      2024<br>
+      </p>
+
+      <div class="paper" id="mobility_vla">
+      <a href="https://arxiv.org/pdf/2407.07775">pdf</a> |
+      <a href="javascript:toggleblock('mobility_vla_abs')">abstract</a> |
+      <a href="https://arxiv.org/abs/2401.02117">arXiv</a> |
+      <a href="https://youtu.be/-Tof__Q8_5s">video</a>
+
+      <p align="justify"> <i id="mobility_vla_abs">An elusive goal in navigation research is to build an intelligent agent that can understand multimodal instructions including natural language and image, and perform useful navigation. To achieve this, we study a widely useful category of navigation tasks we call Multimodal Instruction Navigation with demonstration Tours (MINT), in which the environment prior is provided through a previously recorded demonstration video. Recent advances in Vision Language Models (VLMs) have shown a promising path in achieving this goal as it demonstrates capabilities in perceiving and reasoning about multimodal inputs. However, VLMs are typically trained to predict textual output and it is an open research question about how to best utilize them in navigation. To solve MINT, we present Mobility VLA, a hierarchical Vision-Language-Action (VLA) navigation policy that combines the environment understanding and common sense reasoning power of long-context VLMs and a robust low-level navigation policy based on topological graphs. The high-level policy consists of a long-context VLM that takes the demonstration tour video and the multimodal user instruction as input to find the goal frame in the tour video. Next, a low-level policy uses the goal frame and an offline constructed topological graph to generate robot actions at every timestep. We evaluated Mobility VLA in a 836m^2 real world environment and show that Mobility VLA has a high end-to-end success rates on previously unsolved multimodal instructions such as "Where should I return this?" while holding a plastic bin. </i></p>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="40%" valign="top" align="center"><a href="https://umi-on-legs.github.io">
+    <video playsinline autoplay loop muted src="images/umi-on-legs-clip.mp4" poster="./images/loading-icon.gif" alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;"></video>
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://umi-on-legs.github.io" id="umi_on_legs">
+      <heading>UMI on Legs: Making Manipulation Policies Mobile with Manipulation-Centric Whole-body Controllers</heading></a><br>
+      Huy Ha*, Yihuai Gao*, Zipeng Fu, Jie Tan, Shuran Song<br>
+      2024<br>
+      </p>
+
+      <div class="paper" id="umi_on_legs">
+      <a href="https://umi-on-legs.github.io">webpage</a> |
+      <a href="https://umi-on-legs.github.io/static/umi-on-legs.pdf">pdf</a> |
+      <a href="javascript:toggleblock('umi_on_legs_abs')">abstract</a> |
+      <a href="https://arxiv.org/abs/2407.10353">arXiv</a> |
+      <a href="https://github.com/real-stanford/umi-on-legs">code</a> |
+      <a href="https://youtu.be/4Bp0q3xHTxE">video</a>
+
+      <p align="justify"> <i id="umi_on_legs_abs">We introduce UMI-on-Legs, a new framework that combines real-world and simulation data for quadruped manipulation systems. We scale task-centric data collection in the real world using a hand-held gripper (UMI), providing a cheap way to demonstrate task-relevant manipulation skills without a robot. Simultaneously, we scale robot-centric data in simulation by training whole-body controller for task-tracking without task simulation setups. The interface between these two policies is end-effector trajectories in the task frame, inferred by the manipulation policy and passed to the whole-body controller for tracking. We evaluate UMI-on-Legs on prehensile, non-prehensile, and dynamic manipulation tasks, and report over 70% success rate on all tasks. Lastly, we demonstrate the zero-shot cross-embodiment deployment of a pre-trained manipulation policy checkpoint from prior work, originally intended for a fixed-base robot arm, on our quadruped system. We believe this framework provides a scalable path towards learning expressive manipulation skills on dynamic robot embodiments. </i></p>
+
       </div>
     </td>
   </tr>
@@ -617,6 +665,13 @@ hideallbibs();
 <script xml:space="preserve" language="JavaScript">
   hideblock('humanplus_abs');
 </script>
+<script xml:space="preserve" language="JavaScript">
+  hideblock('mobility_vla_abs');
+</script>
+<script xml:space="preserve" language="JavaScript">
+  hideblock('umi_on_legs_abs');
+</script>
+
 </body>
 
 </html>
